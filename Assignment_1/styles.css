@@ -1,10 +1,13 @@
+
+/* Header se */
 .header{
 
     display: flex;
-    background-color: rgba(14, 68, 243, 0.335);
+    background-color:#1E4F94;
     padding: 1%;
     justify-content: space-between; 
     margin-bottom: 15px; 
+    color: ivory;
 }
 .header img {
     display: block;
@@ -14,7 +17,7 @@
 
 .wrapper{
     display: flex;
-    background-color: rgba(173, 170, 170, 0.301);
+    background-color:#8b8f956b;
     align-items: center;
     flex-direction: column;
     
@@ -30,6 +33,9 @@
 
 
 }
+h1, h2, h3, p{
+    font-family: 'Philosopher', sans-serif;
+}
 .goals{
     display: flex;
     width: 300px;
@@ -41,10 +47,8 @@
     
 }
 .goals img{
+
     width: 300px;
-   
-    /* justify-content: space-around; */
-    /* width:inherit; */
     border: solid rgb(122, 11, 11);
     border-radius: 4px;
    
@@ -53,16 +57,17 @@
     padding: 30px;
     max-width:200px;
     border: solid rgb(20, 17, 17);
-    /* justify-content:space-between; */
-    /* align-self: center; */
-   
+    background-color: whitesmoke;
+    align-self: center;
+    border-radius: 4px;
 
 }
 .work_history{
     
-    border: solid;
-    background-color:  #ddddbf;
+    border: 1px dashed;
+    background-color:whitesmoke;
     max-width: 640px;
+    color:#3D44A8;
     
 }
 
