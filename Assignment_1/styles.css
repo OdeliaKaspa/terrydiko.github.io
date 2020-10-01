@@ -37,7 +37,7 @@
     margin-right: 15px;
     margin-bottom: 15px; 
     /* flex-flow: row wrap; */
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     
 }
 .goals img{
@@ -67,6 +67,7 @@
 }
 
 @media screen and (max-width: 1000px){
+    hea
 
     .container{
         justify-content:flex-start;
