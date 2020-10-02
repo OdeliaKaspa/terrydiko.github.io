@@ -51,7 +51,7 @@ h1, h2, h3, p, li{
 }
 .goals img{
    
-    width: 80%;
+    width: auto;
     border: 2p;
     border-radius: 4px;
     max-width: 300px;
@@ -64,6 +64,7 @@ h1, h2, h3, p, li{
     align-self: center;
     border-radius: 4px;
     color:#040fad;
+    margin-top: -5%;
 
 }
 .work_history{
@@ -72,6 +73,8 @@ h1, h2, h3, p, li{
     background-color:whitesmoke;
     max-width: 640px;
     color:#040fad;
+   
+    
     
 }
 
@@ -89,6 +92,9 @@ h1, h2, h3, p, li{
         flex-grow:5;
         flex-shrink:0;
         justify-content: center;
+    }
+    .goals img{
+        width: 60%;
     }
    
     .work_history{
