@@ -51,9 +51,10 @@ h1, h2, h3, p, li{
 }
 .goals img{
    
-    width: 300px;
+    width: 80%;
     border: 2p;
     border-radius: 4px;
+    max-width: 300px;
    
 }
 .goals p{
