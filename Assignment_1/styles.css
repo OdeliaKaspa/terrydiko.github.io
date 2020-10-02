@@ -92,6 +92,8 @@ h1, h2, h3, p, li{
    
     .work_history{
         justify-content:center;
+        max-width: auto;
+
     }
     .goals p{
         
