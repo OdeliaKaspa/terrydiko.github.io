@@ -24,7 +24,7 @@
 }
 
 body{
-    background:#8b8f956b;
+    background:#c5d8e9;
 }
 .container{
    
@@ -36,7 +36,7 @@ body{
 
 
 }
-h1, h2, h3, p, li{
+h1, h2, h3{
     font-family: 'Philosopher', sans-serif;
 }
 .goals{
@@ -53,7 +53,7 @@ h1, h2, h3, p, li{
    
     width: auto;
     height: auto;
-    border: 2p;
+    border: 1px;
     border-radius: 4px;
     max-width: 300px;
    
