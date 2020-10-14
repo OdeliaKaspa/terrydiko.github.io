@@ -1,0 +1,21 @@
+  .header { 
+    display: flex;
+    background-color: #7c75e0;
+    flex-direction: column; 
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(14, 11, 36);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .content { 
+    display: flex;
+    background-color: #4390b4;
+    flex-direction: row; 
+    align-items: center;
+    color: rgb(14, 11, 36);
+    padding: 15px 32px;
+    font-size: 16px;
+  }
