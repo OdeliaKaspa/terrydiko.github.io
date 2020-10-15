@@ -280,12 +280,25 @@ function getCountries(){
               countries.push(countryList[index]);
           }
         }
+        
+      
     }
+    
+   
+
     countries.sort((name1, name2) => (name1.name > name2.name) ? 1 : -1);
 
 setList.innerHTML= countries.map(function (country) {
     return '<li>' + '<b>' + country['code'] + '</b>' + ", "  + country['name']  + '</li>';
 }).join('') ;
+
+for(let key in countryList){
+
+  
+  if(!countries.includes(countryList[key])){
+    console.log(countryList[key].code + " : "+ countryList[key].name)
+  }
+}
 
 }
 
