@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form_styles.css" />
+  </head>
+  <body>
+    <h1>HTML Forms Lab</h1>
+    <form action="https://fierce-taiga-97625.herokuapp.com/lab" method="post">
+      <ul>
+        <li>
+          <label for="name">Name </label><br />
+          <input type="text" id="name" maxlength="140" name="name" />
+        </li>
+
+        <li>
+          <label for="interests">Interests:</label><br />
+          <textarea id="interests" name="interests" rows="5" cols="35"> Default you want, default text you get</textarea>
+        </li>
+
+        <li>
+          <button type="submit">Submit</button>
+        </li>
+      </ul>
+    </form>
+  </body>
+</html>
