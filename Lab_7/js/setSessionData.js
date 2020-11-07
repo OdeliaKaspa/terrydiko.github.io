@@ -12,12 +12,12 @@ function getBusRoute() {
       })
       .then((route) => {
         // YOUR CODE HERE
-      
+       
           localStorage.setItem('title', route.title)
           localStorage.setItem('latMax', route.lat_max)
-          localStorage.setItem('latMin', route.latMin)
-          localStorage.setItem('lonMax', route.lonMax)
-          localStorage.setItem('lonMin',  route.lonMin)
+          localStorage.setItem('latMin', route.lat_min)
+          localStorage.setItem('lonMax', route.lon_max)
+          localStorage.setItem('lonMin',  route.lon_min)
       
       })
       .catch((err) => {
