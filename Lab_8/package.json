@@ -1,0 +1,19 @@
+{
+  "name": "lab_8",
+  "version": "1.0.0",
+  "description": "Lab 8 FetchAPI and Hosting a Web App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/terrydiko/terrydiko.github.io/tree/master/Lab_8"
+  },
+  "author": "Terrence Diko",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
