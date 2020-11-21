@@ -12,7 +12,7 @@ async function getData() {
         .then(res => res.json())
         .then((json) => {
             let listSize = json.data.children.length;
-            console.log(json)
+          
             // Loop to pick 5 random entries
             
             for (x = 0; x < 5; x++) {
