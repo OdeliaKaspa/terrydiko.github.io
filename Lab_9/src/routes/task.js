@@ -153,4 +153,37 @@ router.delete('/task/:id', (req, res) => {
 })
 
 
+// Put with params
+router.put('/task/:id', (req, res) => {
+    
+
+    console.log("PUT called")
+  
+    var data = {
+            id : req.params.id,
+            taskName: req.body.taskName   
+    }
+    console.log("data.id:" + data.id + " name:" + data.taskName)
+    if (!data.id) {
+        return res.status(400).send('Missing URL parameter id')
+    }
+    db.run(
+        `UPDATE tasklist set 
+           taskName = ? 
+           WHERE id = ?`,
+        [data.taskName, data.id],
+        function (err, result) {
+            if (err){
+                res.status(400).json({"error": res.message})
+                return;
+            }
+            res.json({
+                message: "success",
+                data: data,
+                changes: this.changes
+            })
+    });
+})
+
+
 module.exports = router
